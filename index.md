@@ -1,7 +1,7 @@
 ---
 title: Baseball Win Probability, CS109a Final Project for Group 34
 ---
-_All the code for our project (except code like the cross validation code that was just a copy from class, and was run in separate notebooks for time purposes) can be found <a href='https://jdeschler.github.io/109final/final_project.html'>here</a>.
+_All the code for our project (except code like the cross validation code that was just a copy from class, and was run in separate notebooks for time purposes) can be found <a href='https://jdeschler.github.io/109final/final_project.html'>here</a>._
 
 [TOC levels=1]: # "#### Table of Contents"
 #### Table of Contents
