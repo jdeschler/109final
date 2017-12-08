@@ -12,7 +12,7 @@ We believe that the extreme values at the far right are due to the fact that ver
 
 #### Inning x Score Differential
 As any avid baseball fan will tell you, a 2 run deficit feels much larger in the later innings than in the 1st or 2nd. So we decided to see if our data bore out this conventional wisdom.
-![Wins vs Inning x Score Differential][./images/eda_inning.png)
+![Wins vs Inning x Score Differential](./images/eda_inning.png)
 As we can see, the score differential matters more and more as the game goes on. We included all innings after the 9th with the 9th inning, as the situation in the game is the same. For the ninth inning (and onwards), we see a very steep curve of win probability against score differential. This makes sense, as many teams bring their closer (best relief pitcher) into the game when winning in the ninth. These graphs confirmed our suspicions that we should include interaction terms for these variables in our analysis.
 
 
