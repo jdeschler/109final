@@ -11,7 +11,7 @@ _All the code for our project (except code like the cross validation code that w
 - [**Modeling Approach and Project Trajectory**](#modeling-approach-and-project-trajectory)
 - [**Results, Conclusions, and Future Work**](#results-conclusions-and-future-work)
 
-tatement and Motivation
+#### Problem Statement and Motivation
 We were tasked with building an **MLB win probability model**, using historical play-by-play data to predict the outcome of a given game.  While win probability, more specifically **win probability added (WPA)**, is a popular metric to evaluate players' performances and managers' decisions, the actual methodology used to calculate WPA is often either overlooked or entirely ignored.  With our project, we hope to bridge this gap, fitting a transparent model that offers accurate predictions.
 
 #### Introduction and Description of Data
@@ -62,10 +62,4 @@ To determine the best managers using only the data at our disposal, we limited o
 ![Best Teams](./images/top15teams.png)
   
 In future research, we would include more data, as we included only 6 seasons' worth in this project.  We also would have liked to include more polynomial terms that could have unlocked stronger relationships, but because of time constraints and computational complexity, we chose to limit the number of predictors as much as possible.        
-
-
-After fitting this logistic regression baseline model, we hoped to improve our performance by fitting more **complex ensemble models**, specifically **Random Forests** and **AdaBoost** classifiers.  While noted for their **superior accuracy**, these models were much more difficult from a **computational perspective**, as they require hyperparameter tuning to determine the optimal maximum decision tree depth in each.  
-
-To obtain these values, we performed cross-validation on a smaller sample of our data, using 100,000 data points rather in place of the nearly 1.5 million contained in the entire dataset because of time constraints.  After completing this cross-validation process, we then fit these ensemble models on the entire dataset.  Each showed small improvements, which were encouraging, although they did not exhibit the significant increase that we had hoped for.  Our final random forest model recorded a classification accuracy score of 0.718, and the AdaBoost model posted a classification accuracy score of 0.721.
-
 
